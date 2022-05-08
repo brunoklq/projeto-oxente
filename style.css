@@ -1,0 +1,564 @@
+@font-face {
+    font-family: nos;
+    src: url(fonts/EldesCordel-Demo.otf);
+}
+
+
+html { 
+    margin: 0px;
+    padding: 0px;
+    width: fit-content;
+    scroll-behavior: smooth; } 
+
+body {
+
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+}
+    
+
+main {
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+    margin: auto;
+    min-width: 320px;
+    max-width: 800px;
+    height: 5300px;
+
+}
+
+a img.sobre{
+
+    width: 139px;
+    position: absolute;
+    height: 22px;
+    left: 60px;
+    top: 50px;
+    
+}
+
+div img.cabeca {
+
+    width: 60%;
+    margin: auto;
+    top: 1px;
+    left: 310px;
+}
+
+
+a img.btn1 {
+
+    width: 158px;
+    position: absolute;
+    height: 58px;
+    left: 1207px;
+    top: 40px;
+
+}
+
+a img.btn2 {
+
+    width: 41px;
+    position: absolute;
+    height: 41px;
+    left: 220px;
+    top: 40px;
+
+}
+
+div img.background1 {
+
+    width: 100%;
+    height: 600px;
+    left: auto;
+    right: auto;
+    top: 720px;
+}
+
+
+div img {
+
+    position: absolute;
+    width: 30%;
+    height: auto;
+    left: 800px;
+    margin: auto;
+    top: 800px;
+
+    border-radius: 20px;
+}
+
+head {
+
+    position: absolute;
+    width: 100%;
+    height: 1449.08px;
+    left: 249px;
+    top: -323px;
+    margin: auto;
+
+}
+
+h1.id1 {
+    font-family: nos;
+    position: absolute;
+    width: 649px;
+    height: 55px;
+    left: 230px;
+    top: 860px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 110%;
+    margin: auto;
+    text-transform: capitalize;
+    color: white;
+}
+
+h1.id2 {
+
+    position: absolute;
+    width: 649px;
+    height: 55px;
+    left: 278px;
+    top: 870px;
+    font-family: nos;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 110%;
+    text-transform: capitalize;
+    color: white;
+}
+
+h1.id3 {
+
+    position: absolute;
+    width: 343px;
+    height: 110px;
+    left: 366px;
+    top: 910px;
+    font-family: nos;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 110%;
+    text-transform: capitalize;
+    color: white;
+}
+
+p.id1 {
+
+    position: absolute;
+    width: 375px;
+    height: 389px;
+    left: 340px;
+    top: 970px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #B37944;
+}
+
+h1.id4 {
+    font-family: nos;
+    text-align: center;
+    font-size: 60px;
+    width: 1000px;
+    height: 132px;
+    left: 280px;
+    top: 1320px;
+    color: rgb(0, 0, 0);
+    position: absolute
+}
+
+h1.coluna1 {
+
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 556px;
+    height: 396px;
+    left: 400px;
+    top: 1575px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 36px;
+
+}
+
+p.coluna2 {
+
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 380px;
+    height: 396px;
+    left: 400px;
+    top: 1600px;
+    font-family: 'Inter';
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+h1.coluna3 {
+
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 556px;
+    height: 396px;
+    left: 1000px;
+    top: 1575px;
+    font-family: 'Inter';
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 36px;
+
+}
+
+p.coluna4 {
+
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 380px;
+    height: 396px;
+    left: 1000px;
+    top: 1600px;
+    font-family: 'Inter';
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 36px;
+
+}
+
+div img.icone1 {
+
+    width: 125px;
+    height: 125px;
+    left: 250px;
+    top: 1600px;
+
+}
+
+
+div img.icone2 {
+
+    width: 125px;
+    height: 125px;
+    left: 850px;
+    top: 1600px;
+
+}
+
+h1.coluna5 {
+
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 556px;
+    height: 396px;
+    left: 400px;
+    top: 1800px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 36px;
+
+}
+
+p.coluna6 {
+
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 380px;
+    height: 396px;
+    left: 400px;
+    top: 1850px;
+    font-family: 'Inter';
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+div img.icone3 {
+
+    width: 125px;
+    height: 125px;
+    left: 250px;
+    top: 1800px;
+}
+
+h1.coluna7 {
+
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 556px;
+    height: 396px;
+    left: 1000px;
+    top: 1800px;
+    font-family: 'Inter';
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 36px;
+
+}
+
+p.coluna8 {
+
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 380px;
+    height: 396px;
+    left: 1000px;
+    top: 1850px;
+    font-family: 'Inter';
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 36px;
+
+}
+
+div img.icone4 {
+
+    width: 125px;
+    height: 125px;
+    left: 850px;
+    top: 1800px;
+
+}
+
+
+h1.coluna9 {
+
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 556px;
+    height: 396px;
+    left: 400px;
+    top: 2070px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 36px;
+
+}
+
+p.coluna10 {
+
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 380px;
+    height: 396px;
+    left: 400px;
+    top: 2100px;
+    font-family: 'Inter';
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 36px;
+
+}
+
+
+div img.icone5 {
+
+    width: 125px;
+    height: 125px;
+    left: 250px;
+    top: 2070px;
+
+}
+
+
+h1.coluna11 {
+
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 556px;
+    height: 396px;
+    left: 1000px;
+    top: 2070px;
+    font-family: 'Inter';
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+p.coluna12 {
+
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 380px;
+    height: 396px;
+    left: 1000px;
+    top: 2100px;
+    font-family: 'Inter';
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+div img.icone6 {
+
+    width: 125px;
+    height: 125px;
+    left: 850px;
+    top: 2070px;
+
+}
+
+div img.fotomao {
+
+    width: 663px;
+    height: 823px;
+    left: 470px;
+    top: 2400px;
+
+}
+
+h1.cabeca2 {
+
+    font-family: nos;
+    text-align: center;
+    font-size: 70px;
+    width: 1000px;
+    height: 132px;
+    left: 280px;
+    top: 3230px;
+    color: rgb(0, 0, 0);
+    position: absolute
+}
+
+div img.depoimento {
+
+    width: 1000px;
+    height: 325px;
+    left: 270px;
+    top: 3420px;
+}
+
+div img.botao1 {
+
+    width: 158px;
+    height: 58px;
+    left: 700px;
+    top: 3830px;
+
+}
+
+div img.background2 {
+
+    width: 100%;
+    height: 600px;
+    left: auto;
+    right: auto;
+    top: 4000px;
+}
+
+div img.fotopacote {
+
+    width: 420px;
+    height: 400px;
+    top: 4101px;
+}
+
+
+h1.cafetitle1 {
+
+    font-family: nos;
+    position: absolute;
+    width: 649px;
+    height: 55px;
+    left: 309px;
+    top: 4147px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 110%;
+    margin: auto;
+    text-transform: capitalize;
+    color: white;
+}
+
+h1.cafetitle2 {
+
+    font-family: nos;
+    position: absolute;
+    width: 649px;
+    height: 55px;
+    left: 354px;
+    top: 4186px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 110%;
+    margin: auto;
+    text-transform: capitalize;
+    color: white;
+
+}
+
+h1.cafetitle3 {
+
+    font-family: nos;
+    position: absolute;
+    width: 649px;
+    height: 55px;
+    left: 387px;
+    top: 4228px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 110%;
+    margin: auto;
+    text-transform: capitalize;
+    color: white;
+}
+
+h1.cafetitle4 {
+
+    font-family: nos;
+    position: absolute;
+    width: 649px;
+    height: 55px;
+    left: 450px;
+    top: 4264px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 110%;
+    margin: auto;
+    text-transform: capitalize;
+    color: white;
+}
+
+p.cafeparagrafo {
+
+    position: absolute;
+    width: 375px;
+    height: 389px;
+    left: 387px;
+    top: 4300px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 25px;
+    line-height: 32px;
+    color: #B37944;
+
+}
+
+div img.background3 {
+
+    width: 100%;
+    height: 600px;
+    left: auto;
+    right: auto;
+    top: 4700px;
+}
